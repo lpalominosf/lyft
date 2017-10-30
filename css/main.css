@@ -1,3 +1,494 @@
-/*
- * Estilos de tu proyecto
- */
+ /*margin y padding para todo el ancho de la página*/
+ * { 
+ 	margin: 0;
+ 	padding: 0;
+ } 
+
+/*header de la página*/
+header {
+	background-color: #1b1031;
+	width: 50%;
+	height: 112px;
+	margin-top: 0px;
+	z-index: 1;
+	margin-left: 650px;
+	display: inline-block;
+}
+/*menu de navegación*/
+a {
+	text-decoration: none;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 18px;
+	color: #fff;
+	padding: 30px;
+	margin-top: 5px;
+	display: inline-block;
+}
+/*botón log-in*/
+.log-in {
+    background-color:#1b1031;
+    font-size: 18px;
+    border: 1px solid #FFF;
+    border-radius: 6px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    color: #fff;
+    width: 100px;
+    height: 40px;
+    cursor: pointer;
+    float: right;
+    margin-right: 200px;
+    margin-top: 25px;
+}
+
+#lyft-container {
+	background-color: #fff;
+	position: absolute;
+}
+/*imagen de fondo lyft*/
+#lyft-image {
+	background-image: url(../assets/images/hero.gif);
+	background-size: 150%;
+	position: absolute;
+    width: 650px;
+    height: 500px;
+    display: inline-block;
+    margin-left: -650px;
+    margin-top: -100px;
+}
+/*logo lyft*/
+#logo {
+	background-image: url(../assets/images/logo-white.png);
+	background-size: 100%;
+	position: absolute;
+	width: 65px;
+	height: 45px;
+	display: block;
+	margin-left: -600px;
+	margin-top: -40px;
+}
+/*sección formulario*/
+#form-section {
+	color: #352384;
+	font-family: 'Montserrat', sans-serif;
+	margin-top: 100px;
+	display: inline-block;
+	font-size: 40px;
+	text-align: center;
+	line-height: 1.1;
+	margin-left: 100px
+}
+/*subtitulo de la sección formulario*/
+div #subtitle p{
+	color: #352384;
+	font-family: 'Montserrat', sans-serif;
+	margin-top: 10px;
+	display: block;
+	font-size: 14px;
+	margin-right: 55px;
+}
+/*input del formulario*/
+div input[type=text] {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 14px;
+	display: inline-block;
+	width: 460px;
+	background-color: #fff;
+	border: 0;
+	border-bottom: 1px solid rgba(0, 0, 0, 0.09)
+}
+/*posicionamiento del formulario*/
+form {
+	position: absolute;
+	margin-right: 80px
+}
+/*botón become a driver*/
+#driver {
+	background-color:  #ff00bf;
+	font-size: 14px;
+    border: 2px solid #ff00bf;
+    border-radius: 6px;
+    padding: 10px 20px;
+    text-align: center;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    color: #fff;
+    opacity: 1;
+    margin-right: 300px;
+    cursor: pointer;
+}
+/*botón sign up to ride*/
+#sign p{
+	text-decoration: underline;
+	color: #728099;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 14px;
+	border: none;
+	cursor: pointer;
+	opacity: 1;
+	background-color: #fff;
+	position: absolute;
+    margin-left: -44px;
+    margin-top: -68px;
+	display: inline-block;
+}
+/*estilos de la leyenda bajo el formulario*/
+#already, #earn {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 10px;
+	display: block;
+	position: absolute;
+	padding: 10px;
+}
+/*párrafo already applied...*/
+div #already {
+	margin-top: 100px;
+}
+/*párrafo earn money...*/
+div #earn {
+	margin-top: 120px;
+}
+/*contenedor del texto e imagenes del telefono*/
+#phone-container {
+	width: 100%;
+	height: 620px;
+	background: linear-gradient(#76278F, #2B1E66);
+	display: inline-block;
+	margin-top: 186px;
+	position: absolute;
+}
+/*titulos de la seccion*/
+h3{
+	font-family: 'Montserrat', sans-serif;
+	color: #fff;
+	display: inline-block;
+	position: absolute;
+	padding: 10px;
+	font-size: 28px;
+	margin-left: 160px;
+}
+/*titulo A RIDE IN MINUTES*/
+#ride {
+	margin-top: 95px;
+}
+/*párrafo Request a ride*/
+#request {
+	font-family: 'Montserrat', sans-serif;
+	color: #fff;
+	display: inline-block;
+	position: absolute;
+	padding: 10px;
+	font-size: 16px;
+	margin-left: 160px;
+	margin-top: 150px;
+
+}
+/*párrafo Request. Ride. Repeat.*/
+#repeat {
+	font-family: 'Montserrat', sans-serif;
+	color: #fff;
+	display: inline-block;
+	position: absolute;
+	padding: 30px;
+	font-size: 16px;
+	margin-left: 140px;
+	text-align: left;
+	margin-top: 160px;
+}
+/*titulo SERIOUS ABOUT SAFETY*/
+#serious {
+	margin-top: 250px;
+}
+/*párrafo From knowing...*/
+#knowing {
+	font-family: 'Montserrat', sans-serif;
+	color: #fff;
+	display: inline-block;
+	position: absolute;
+	padding: 10px;
+	font-size: 16px;
+	margin-left: 160px;
+	margin-top: 300px;
+
+}
+/*párrafo 24/7 Trust*/
+#trust {
+	font-family: 'Montserrat', sans-serif;
+	color: #fff;
+	display: inline-block;
+	position: absolute;
+	padding: 30px;
+	font-size: 16px;
+	margin-left: 140px;
+	text-align: left;
+	margin-top: 310px;
+}
+/*titulo HAPPY DRIVERS.*/
+#happy-drivers {
+	margin-top: 420px;
+}
+/*titulo HAPPY RIDERS*/
+#happy-riders {
+	margin-top: 450px;
+} 
+/*párrafo Ride with us and...*/
+#with {
+	font-family: 'Montserrat', sans-serif;
+	color: #fff;
+	display: inline-block;
+	position: absolute;
+	padding: 10px;
+	font-size: 16px;
+	margin-left: 160px;
+	margin-top: 500px;
+
+}
+/*párrafo with five stars*/
+#five {
+	font-family: 'Montserrat', sans-serif;
+	color: #fff;
+	display: inline-block;
+	position: absolute;
+	padding: 30px;
+	font-size: 16px;
+	margin-left: 140px;
+	text-align: left;
+	margin-top: 510px;
+}
+/*imagen del teléfono celular*/
+#phone-image {
+	background-image: url(../assets/images/phone.png);
+	width: 440px;
+	height: 470px;
+	position: absolute;
+	margin-left: 710px;
+	background-size: 100%;
+	margin-top: 75px;
+}
+/*contenedor de los videos y texto*/
+#youtube-videos {
+	background-color: #fff;
+	position: absolute;
+	width: 100%;
+	height: 1210px;
+	margin-top: 1100px;
+}
+/*contenedor del primer parrafo
+dentro de la seccion de videos*/
+#text1-container {
+	font-family: 'Montserrat', sans-serif;
+	color: #000;
+	position: absolute;
+	margin-top: -260px;
+	margin-left: 60px;
+}
+/*titulo pequeño*/
+#watch {
+	font-size: 10px;
+}
+/*titulo mas grande*/
+#amplify {
+	font-size: 21px;
+}
+/*párrafo del primer video*/
+#text-p {
+	margin-top: 40px;
+	font-size: 15px;
+}
+/*estilos de los videos*/
+iframe{
+	position: absolute;
+	display: inline-block;
+	width: 830px;
+	height:500px;
+}
+/*posicion del primer video*/
+#video1 {
+	margin-left: 396px;
+	margin-top: -188px;
+}
+/*posicion del segundo video*/
+#video2 {
+	margin-left: -57px;
+	margin-top: 312px;
+	position: absolute;
+}
+/*contenedor del segundo parrafo*/
+#text2-container {
+	font-family: 'Montserrat', sans-serif;
+	color: #000;
+	position: absolute;
+	margin-top: 340px;
+	margin-left: 830px;
+	width: 110%;
+}
+/*titulo pequeño*/
+#watch2 {
+	font-size: 10px;
+	display: block;
+}
+/*titulo mas grande*/
+#june {
+	font-size: 21px;
+	display: block;
+}
+/*segundo parrafo*/
+#text-p2 {
+	margin-top: 40px;
+	font-size: 15px;
+}
+/*contenedor del tercer parrafo*/
+#text3-container {
+	font-family: 'Montserrat', sans-serif;
+	color: #000;
+	position: absolute;
+	margin-top: 340px;
+	margin-left: 0;
+	width: 100%;
+	margin-top: 840px;
+}
+/*titulo pequeño del tercer parrafo*/
+#watch3 {
+	font-size: 10px;
+}
+/*titulo mas grande del tercer
+parrafo*/
+#good {
+	font-size: 21px;
+}
+/*tercer parrafo*/
+#text-p3{
+	margin-top: 40px;
+	font-size: 15px;
+}
+/*tercer video*/
+#video3 {
+	margin-left: 396px;
+	margin-top: 810px;
+}
+/*footer o pie de pagina*/
+footer{
+	background-color: #333447;
+	height: 600px;
+	width: 100%;
+	text-align: left;
+	margin-top: 2304px;
+	display: block;
+	position: absolute;
+}
+/*lista del footer*/
+#footer-list {
+	text-align: left;
+	display: inline-block;
+	margin-right:  60px;
+	margin-left: 40px;
+}
+/*titulos h4 dentro del footer*/
+h4 {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 16px;
+	color: #fff;
+	display: inline-block;
+	margin-top: 100px;
+	padding: 10px;
+}
+/*lista, para sacar los .*/
+ul {
+	list-style: none;
+}
+/*estilos de la lista*/
+li {
+	font-family: 'Montserrat', sans-serif;
+	color: #fff;
+	margin-right: 20px;
+
+}
+/*estilos de los links*/
+#footer-list a {
+  	padding: 15px;
+   	text-decoration: none;
+   	font-size: 15px;
+   	margin-right: 20px;
+}
+/*al pasar el mouse solo cambia el color
+del texto*/
+a:hover {
+	color: #FF00BF;
+}
+/*div container de las listas*/
+#footer-list-container {
+	text-align: left;
+	margin-right: -50px;
+}
+/*banners de app store, google play
+y microdoft*/
+li img {
+	width: 160px;
+	height: 50px;
+	margin-left: 800px;
+	margin-bottom: 20px;
+}
+/*posicionamiento de los banners*/
+#banners {
+	margin-top: -235px;
+	cursor: pointer;
+}
+/*iconos de las redes sociales*/
+#redes-sociales {
+	display: inline-block;
+	color: #fff;
+	margin-left: 500px;
+	margin-top: 70px;
+    padding: 20px 20px 0 0;
+    width: 30px:;
+}
+
+.icon-facebook:before {
+	
+}
+
+.icon-instagram:before {
+
+}
+
+.icon-twitter:before {
+	
+}
+/*circunferencia de las redes sociales*/
+#redes-sociales li {
+	display: inline-block;
+	border: 2px solid #fff;
+	border-radius: 20px;
+	-moz-border-radius: 20px;
+  	-webkit-border-radius: 30px;
+  	font-size: 15px;
+  	padding: 5px;
+  	width: 30px;
+  	height:30px;
+  	text-align: center;
+  	outline-width: 10px;
+  	float: left;
+  	line-height: 10px;
+  	margin: 30px;
+}
+/*posicion de los iconos*/
+#redes-sociales a{
+	margin-left: -24px;
+	margin-top: -24px;
+}
+/*linea bajo los iconos*/
+#line hr {
+	color: #fff;
+	position: absolute;
+	width: 765px;
+	margin-top: -15px;
+    display: inline-block;
+    margin-left: 280px;
+}
+/*final*/
+#copyright {
+	text-align: center;
+	font-family: 'Montserrat', sans-serif;
+	color: #fff;
+	font-size: 14px;
+}
